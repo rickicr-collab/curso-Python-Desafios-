@@ -5,18 +5,18 @@ c = int(input('Digite Terceiro número:'))
 #verificando quem é menor 
 menor = a
 if b<a and b<c:
-  menor = b
+    menor = b
 if c<a and c<b:
-  menor = c
+    menor = c
 print('-=-'*20)
 print('o menor numero digitado foi:{}'.format(menor))
 print('-=-'*20)
 #verificando maior 
 maior = a
 if b>a and b>c:
-  maior = b
+    maior = b
 if c>a and c>b:
-  maior = c
+    maior = c
 print('-=-'*20)
 print('O maior número digitado foi :{}'.format(maior))
 print('-=-'*20)
