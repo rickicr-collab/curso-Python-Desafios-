@@ -2,6 +2,6 @@
 numero = int(input('Me diga um numero qualquer?'))
 resultado = numero % 2 # variavel resultado criada para realizar a operação com numero divisiveis por dois com o resto sendo zero será PAR
 if resultado == 0: # condição de IF sendo PAR
-  print('o numero {} é PAR'.format(numero)) # impressão se a condição if for alcancada 
+    print('o numero {} é PAR'.format(numero)) # impressão se a condição if for alcancada 
 else:
-  print('O numero {} é IMPAR'.format(numero)) # impressão se a condição else for alcancada
+    print('O numero {} é IMPAR'.format(numero)) # impressão se a condição else for alcancada
