@@ -10,9 +10,9 @@ lista = [a1,a2,a3,a4]
 escolhido = random.choice(lista)
 print('Parabens:{} !, você foi o escolhido'.format(escolhido))
 #opção 02
-import random
+from random import choice
 alunos = ('Vera, Antonio, Viviane, Marcos');
 lista = ['Vera','Antonio','Viviane','Marcos']
-escolhido = random.choice(lista)
+escolhido = choice(lista)
 print('A ordem dos alunos foi {}, e o escolhido foi {}'.format(alunos, escolhido))
 #---------------------------------------------------------
