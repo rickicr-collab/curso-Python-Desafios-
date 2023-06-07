@@ -7,7 +7,7 @@ print('PROCESSANDO....')
 sleep(3)
 aumento1 = salário + (salário * 10 / 100)
 if salário > 1250:
-  print('O funcionario com salario {:.2f} recebeu o aumento com 10% que será: {:.2f}'.format(salário, aumento1))
+    print('O funcionario com salario {:.2f} recebeu o aumento com 10% que será: {:.2f}'.format(salário, aumento1))
 aumento2 = salário + (salário * 15 / 100)
 if salário < 1250:
-  print('O funcionario com salario {:.2f} recebeu o aumento com 15% que será: {:.2f}'.format(salário, aumento2))
+    print('O funcionario com salario {:.2f} recebeu o aumento com 15% que será: {:.2f}'.format(salário, aumento2))
