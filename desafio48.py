@@ -1,4 +1,4 @@
-#faca um programa que calcule a soma entre todos os numero impares que são multiplos de tre e que se encontram no intervalo de 1 até 500
+#faca um programa que calcule a soma entre todos os numero impares que são multiplos de treis e que se encontram no intervalo de 1 até 500
 soma = 0
 cont = 0
 print('-=-' * 23)
