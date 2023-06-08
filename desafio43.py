@@ -15,14 +15,13 @@ imc = peso / (altura * altura)
 print('Processando............')
 sleep(5)
 if imc < 18.5:
-  print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está ABAIXO DO PESO IDEAL'.format(candidato, peso, altura, imc))
+    print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está ABAIXO DO PESO IDEAL'.format(candidato, peso, altura, imc))
 elif (imc >= 18.5) and (imc <= 25):
-  print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está no PESO IDEAL PARABENS'.format(candidato, peso, altura, imc))
+    print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está no PESO IDEAL PARABENS'.format(candidato, peso, altura, imc))
 elif (imc > 25) and (imc <= 30):
-  print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está no SOBREPESO'.format(candidato, peso, altura, imc))
+    print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está no SOBREPESO'.format(candidato, peso, altura, imc))
 elif (imc > 30) and (imc <= 40):
-  print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está na OBESIDADE'.format(candidato, peso, altura, imc))
+    print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está na OBESIDADE'.format(candidato, peso, altura, imc))
 elif (imc > 40):
-  print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está na OBESIDADE MORBIDA'.format(candidato, peso, altura, imc))
-  
+    print('Candidato {}\nPossui peso {} kg\naltura {} m \nPossui IMC : {:.2f} kg/m2 você está na OBESIDADE MORBIDA'.format(candidato, peso, altura, imc))
   

@@ -18,29 +18,29 @@ print('Computador jogou {}'.format(itens[computador]))
 print('Jogador jogou {}'.format(itens[jogador]))
 print('-=-' * 11)
 if computador == 0: # computador escolheu pedra
-  if jogador == 0:
-    print('EMPATE')    
-  elif jogador == 1:
-    print('JOGADOR VENÇE')
-  elif jogador == 2:
-    print('COMPUTADOR VENÇE')
-  else:
-    print('JOGADA INVALIDA!')
+    if jogador == 0:
+        print('EMPATE')    
+    elif jogador == 1:
+        print('JOGADOR VENÇE')
+    elif jogador == 2:
+        print('COMPUTADOR VENÇE')
+    else:
+        print('JOGADA INVALIDA!')
 elif computador == 1: # computador escolheu Papel
-  if jogador == 0:
-    print('COMPUTADOR VENÇE')
-  elif jogador == 1:
-    print('EMPATE')
-  elif jogador == 2:
-    print('JOGADOR VENÇE')
-  else:
-    print('JOGADA INVALIDA!')
+    if jogador == 0:
+        print('COMPUTADOR VENÇE')
+    elif jogador == 1:
+        print('EMPATE')
+    elif jogador == 2:
+        print('JOGADOR VENÇE')
+    else:
+        print('JOGADA INVALIDA!')
 elif computador == 2: # computador escolheu tesoura
-  if jogador == 0:
-    print('JOGADOR VENÇE')
-  elif jogador == 1:
-    print('COMPUTADOR VENÇE')
-  elif jogador == 2:
-    print('EMPATE')
-  else:
-    print('JOGADA INVALIDA!')
+    if jogador == 0:
+        print('JOGADOR VENÇE')
+    elif jogador == 1:
+        print('COMPUTADOR VENÇE')
+    elif jogador == 2:
+        print('EMPATE')
+    else:
+        print('JOGADA INVALIDA!')

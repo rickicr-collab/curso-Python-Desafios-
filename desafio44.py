@@ -15,17 +15,17 @@ opção = int(input('Qual é a opção?'))
 print('Processando............')
 sleep(5)
 if opção == 1: 
-  total = preço - (preço * 10 / 100)
-  print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
+    total = preço - (preço * 10 / 100)
+    print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
 elif opção == 2:
-  total = preço - (preço * 5 / 100)
-  print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
+    total = preço - (preço * 5 / 100)
+    print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
 elif opção == 3:
-  total = preço
-  parcelas = preço / 2 
-  print('Sua compra no valor de R${:.2f} será parcelada em 2x de R$ {:.2f} SEM JUROS'.format(preço, parcelas))
+    total = preço
+    parcelas = preço / 2 
+    print('Sua compra no valor de R${:.2f} será parcelada em 2x de R$ {:.2f} SEM JUROS'.format(preço, parcelas))
 elif opção == 4:
-  total = preço + (preço * 20 / 100)
-  totalparcelas = int(input('Quantas parcelas deseja?'))
-  parcelas = total / totalparcelas
-  print('Sua compra será parcelada em {}x de R${:.2f}'.format(totalparcelas, parcelas))
+    total = preço + (preço * 20 / 100)
+    totalparcelas = int(input('Quantas parcelas deseja?'))
+    parcelas = total / totalparcelas
+    print('Sua compra será parcelada em {}x de R${:.2f}'.format(totalparcelas, parcelas))
