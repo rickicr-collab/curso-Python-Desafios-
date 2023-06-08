@@ -2,19 +2,19 @@
 opção = 'S'
 maior = menor = media = quantidade = soma = 0
 while opção in 'Ss':
-  num = int(input('digite um numero:'))
-  soma += num
-  quantidade += 1
-  if quantidade == 1:
-    maior = num
-    menor = num
-  else:
-    if num > maior:
-      maior = num
-    if num < menor:
-      menor = num
-  opção = str(input('Qual a opção desejada [S/N]:')).upper().strip()[0]
-media = soma / quantidade
+    num = int(input('digite um numero:'))
+    soma += num
+    quantidade += 1
+    if quantidade == 1:
+        maior = num
+        menor = num
+    else:
+        if num > maior:
+            maior = num
+        if num < menor:
+            menor = num
+    opção = str(input('Qual a opção desejada [S/N]:')).upper().strip()[0]
+    media = soma / quantidade
 print('O maior numero foi {} e o menor numero foi {}.'.format(maior, menor)) 
 print('A quantidade de numeros digitados foram {} e a media entre eles é {}.'.format(quantidade, media)) 
 

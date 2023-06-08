@@ -8,7 +8,7 @@ razão = int(input('Digite a razão da PA:')) # variavel razão criada para info
 termo = pritermo # variavel termo recebe a variavel termo
 count = 0 # variavel count recebe o valor inicial 0
 while count <= 10: # condição count é menor ou igual a 10 o while é iniciado atá atingir o valor 10 
-  print('{} → '.format(termo), end='')
-  termo += razão # variavel termo informada com acrescimo da variavel razão + 1
-  count += 1 # variavel informada com acrescimo da variavel count + 1
+    print('{} → '.format(termo), end='')
+    termo += razão # variavel termo informada com acrescimo da variavel razão + 1
+    count += 1 # variavel informada com acrescimo da variavel count + 1
 print('Fim!!!')

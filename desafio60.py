@@ -16,8 +16,8 @@ resultado = 1 # criado variavel resultado atribuido o valor 1 inicial
 count = num # criado a variavel count recebendo o valor em num
 print('Calculando {}!'.format(num), end='') # informaçoes sobre o fatorial do valor inserido
 while count > 0: # condição while com contador sendo maior que 0
-  print(' {} '.format(count), end='') # imprimindo as informaçoes referente ao contador
-  print(' x ' if count > 1 else ' = ', end='') # imprimindo as iinformaaçoes mais detalhada sobre as operaçoes realizada no fatorial inserindo condições para caracteres na impressão das informações
-  resultado *= count # variavel resultado realizando multiplicação a partir dos valores de count lembrando que count recebeu os valores da variavel num
-  count -= 1 # variavel count realizando a operação onde o valor recebido de count será subtraido para seus valores menores até a chegada de zero
+    print(' {} '.format(count), end='') # imprimindo as informaçoes referente ao contador
+    print(' x ' if count > 1 else ' = ', end='') # imprimindo as iinformaaçoes mais detalhada sobre as operaçoes realizada no fatorial inserindo condições para caracteres na impressão das informações
+    resultado *= count # variavel resultado realizando multiplicação a partir dos valores de count lembrando que count recebeu os valores da variavel num
+    count -= 1 # variavel count realizando a operação onde o valor recebido de count será subtraido para seus valores menores até a chegada de zero
 print('{}'.format(resultado), end="") # imprimindo informaçoes detalhadas sobre o resultado da operação

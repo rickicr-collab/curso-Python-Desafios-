@@ -11,11 +11,11 @@ total = 0
 mais = 10
 print('{} →'.format(pritermo), end='')
 while mais != 0: # condição while pai criada com paramentro variavel mais diferente de zero para ser atendida e iniciada
-  total = total + mais # variavel total recebendo o total + variavel mais 
-  while count <= total:
-    termo += razão
-    count += 1
-    print(' {} → '.format(termo), end='')
-  print('PAUSA!!')
-  mais = int(input('Quantos termos você quer mostrar a mais ? ')) # variavel crianda com intuito de informar mais termos enquanto a condição while for antendida 
+    total = total + mais # variavel total recebendo o total + variavel mais 
+    while count <= total:
+        termo += razão
+        count += 1
+        print(' {} → '.format(termo), end='')
+    print('PAUSA!!')
+    mais = int(input('Quantos termos você quer mostrar a mais ? ')) # variavel crianda com intuito de informar mais termos enquanto a condição while for antendida 
 print('Progressão finalizada com {} de termos mostrado.'.format(total))
