@@ -22,7 +22,6 @@ while True:
         print('ERRo! - Digite apenas opções S ou N.')
     if resp == 'N':
         break
-    
 print('-=-' * 20)
 print('cod ', end = '')
 for i in jogador.keys():
@@ -51,9 +50,41 @@ print(' Volte Sempre ')
 
 # ------- Comentarios do codigo --------------- # 
 
-# criado uma lista chamada times()
+# listas e dicioanrios criados :
+''' lista times criada → time = list()'''
+''' dicionario jogador criado → jogador = dict()'''
+''' lista partidas criada → partidas = list()'''
 
-# criado um laço while true:
-    # contendo todo o conteudo do desafio 93 já pré produzido
-    
-# 
+# criado laço While True:
+''' função clear para jogador → jogador.clear()'''
+''' dicionario jogador recebe chave nome atraves de input → jogador['nome'] = str(input('nome do jogador'))'''
+''' variavel tot recebe valor por input → tot = int(input('Total de jogos do jogador:))'''
+''' função clear para partidas → partidas.clear()'''
+    # criado laço for com contador in range comparamentros (0, tot) → for c in range(0, tot):
+'''função append para partidas atraves de um input → partidas.append(int(input(total de gols por partida com formatação de ordem para elas)))'''
+'''dicionario jogador recebe chave gols de copia de partida → jogador['gols'] = partida[:]'''
+'''dicionario jogador recebe chave totals que é a soma das partidas → jogador['totals'] = sum(partidas)'''
+'''é realizado uma copia e adicionado a lista times os dados de jogador → times.append(jogador.copy())'''
+    # criado laço while True:
+''' criado variavel resp com dados por input com formatações de string na linha de cod → resp str(input(deseja continuar? [S/N]:)).upper()[0]'''
+        #criado condição if → if resp in 'SN':
+'''Sai do laço atual usando a função break'''
+'''realiza um print se caracteres diferente for utilizado na função input da condição if acima → print(ERRO! → digite apenas opções S ou N)'''
+    # criado condição if sendo → if resp =='N':
+''' quando a variavel receber o valor N como parametro no teclado é realizado a quebra do laço Pai e saindo completamente do codigo usando a funçao break'''
+
+# da linha 25 a linha 36:
+''' Realizado laços for para organizar e estilizar o codigo informando os valores contidos dentro do dicionario que foi copiato para a lista times '''
+
+# criado laço While:
+''' criado variavel buscar onde atraves dos dados organizados anteriormente e estilizados dentro das linhas de intervalo 25 a 36 para serem visualizados mais detalhadamente
+  → buscar = int(input('Mostrar dados de qual jogador? ( digite 999 para parar))) com condição de numeração 999 para encerrar o cod e o programa'''
+    # criada condição if → if resp == '999':
+''' quando o input da variavel buscar recebe o valor 999 é realizado a quebra do laço e o fim do cod usando a função break'''
+    # criado condição if → if buscar >= len(times):
+''' quando a variavel buscar recebe um valor que esta acima do total armazenado no tamnho da lista times é mostrado em tela um print sendo 
+  → print(ERRO! - Não dados do jogador com {buscar} digitado na busca)'''
+    # criado condição else:
+''' realizado um print mostrando a seguinte mensagem → print(f'Levantamento do jogador{times[buscar]['nome']}:')'''
+        # criado laço for → for i, g enumerate(times[buscar]['gols']):
+''' realizado um print mostrando os seguintes dados → print(f'   para {i+1}ª partida foi feito {g} gol(s))'''

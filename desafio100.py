@@ -35,7 +35,7 @@ def somapar(lista):
     for valor in lista:
         if valor  % 2 == 0:
             soma += valor
-        print('Somando valores ....', end = '', flush = True)
+        print('Somando valores....', end = '', flush = True)
         sleep(0.7)
     print(f'\nA soma dos valores pares da {lista} são {soma}')
             
